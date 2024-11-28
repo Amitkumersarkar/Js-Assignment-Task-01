@@ -1,6 +1,6 @@
 function calculateTax(income, expenses) {
-    const difference = income - expenses;
-    const payableTax = difference * 20 / 100;
+    let difference = income - expenses;
+    let payableTax = difference * 20 / 100;
     console.log(payableTax);
     return payableTax;
 }
