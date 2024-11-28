@@ -1,6 +1,6 @@
 function checkDigitsInName(input) {
     if (typeof input !== "string") {
-        return "invalid input";
+        return "Invalid Input";
     }
     let hasDigit = /\d/.test(input);
     return hasDigit;

@@ -1,6 +1,6 @@
 function waitingTime(interviewTime, serialNumber) {
     if (!Array.isArray(interviewTime) || typeof serialNumber !== "number") {
-        return "invalid input";
+        return "Invalid Input";
     }
     let totalTime = interviewTime.reduce((sum, time) => sum + time, 0);
     let avgTime = Math.round(totalTime / interviewTime.length);

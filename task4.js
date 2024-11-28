@@ -3,7 +3,7 @@ function calculateFinalScore({ name, testScore, schoolGrade, isFamily }) {
 
     if (typeof name !== "string" || typeof testScore !== "number" || testScore >= 50 || typeof schoolGrade !== "number" || schoolGrade >= 30 || typeof isFamily !== "boolean") {
 
-        return "invalid input";
+        return "Invalid Input";
 
     }
     let parentProfessionScore = isFamily ? 20 : 0;
